@@ -1,6 +1,6 @@
 # **0x00. AirBnB clone - The console**
 
-![project icon](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2018/6/65f4a1dd9c51265f49d0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20211112%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20211112T080559Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=5cbcb3023cea9bf55ee8822aa379ab30591e3c05626ad021f015184466091080)
+![project icon](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2018/6/65f4a1dd9c51265f49d0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20211112%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20211112T083330Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=6f395859ee17f859aa4d8906b4adb8f9a8410448d1327dfc8f03212b0807f45b)
 
 ## Background Context
 
@@ -29,7 +29,7 @@ Do you remember the Shell? It’s exactly the same but limited to a specific use
 ## Execution
 
 shell should work like this in interactive mode:
-'''
+```
     
 $ ./console.py
 (hbnb) help
@@ -42,9 +42,9 @@ EOF  help  quit
 (hbnb) 
 (hbnb) quit
 $
-'''
+```
 But also in non-interactive mode: (like the Shell project in C):
-'''
+```
 
 $ echo "help" | ./console.py
 (hbnb)
@@ -65,7 +65,7 @@ Documented commands (type help <topic>):
 EOF  help  quit
 (hbnb) 
 $
-'''
+```
 
 All tests should also pass in non-interactive mode: '$ echo "python3 -m unittest discover tests" | bash'
 
